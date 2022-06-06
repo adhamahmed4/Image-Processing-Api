@@ -1,0 +1,14 @@
+Scripts:
+1) npm run build --> build the application
+2) npm run lint --> run eslint
+3) npm run prettier --> format the code
+4) npm run jasmine --> run tests
+5) npm run start --> start the server
+6) npm run test --> build and test
+
+Endpoints:
+1) /api/image?filename=encenadaport&width=200&height=200 --> display the resized image
+2) /api/image/delete --> delete the images in thumbs folder
+
+Functions:
+1)ResizeImage() --> use sharp to resize image
